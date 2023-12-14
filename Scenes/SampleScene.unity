@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8114105094413576968, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2182069439819999025, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -182,6 +186,14 @@ PrefabInstance:
     - target: {fileID: 2511135559777142839, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
       propertyPath: m_Name
       value: Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774887850597590035, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774887850597590035, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -848,6 +860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8114105094413576968, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2182069439819999025, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
       propertyPath: m_IsKinematic
       value: 1
@@ -903,6 +919,14 @@ PrefabInstance:
     - target: {fileID: 2511135559777142839, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
       propertyPath: m_Name
       value: Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774887850597590035, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8774887850597590035, guid: 794b9f208535c4a44a0bf4129125a7bb, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1008,7 +1032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6002820810982445906, guid: 40529862df184824ea3e3e791ca5a170, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6002820810982445906, guid: 40529862df184824ea3e3e791ca5a170, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1020,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6002820810982445906, guid: 40529862df184824ea3e3e791ca5a170, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 6002820810982445906, guid: 40529862df184824ea3e3e791ca5a170, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
