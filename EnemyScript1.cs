@@ -12,7 +12,11 @@ public class EnemyScript1 : MonoBehaviour
     private Vector3 movement;
     private Vector3 rotator;
 
-    private Ray ray=new Ray(transform.position, transform.forward);
+    public Ray ray;
+
+    public float maxD=120;
+    public LayerMask layerMask;
+
     // Start is called before the first frame update
     void Start()
 
@@ -28,7 +32,18 @@ public class EnemyScript1 : MonoBehaviour
         transform.position+=movement*Time.deltaTime;
         
         transform.eulerAngles= new Vector3(0f,rotationD,0f);
+
+        ray=new Ray(transform.position, transform.forward);
         
+        CheckForColliders();
+    }
+
+    public void CheckForColliders()
+    {
+        if(Physics.Raycast(ray, out RaycastHit hit, maxD, 1<<3))
+        {
+            UnityEngine.Debug.Log("Hit on!");
+        }
     }
 
     public void OnCollisionEnter(Collision target)
